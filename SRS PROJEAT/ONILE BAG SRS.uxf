@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>580</x>
+      <y>380</y>
+      <w>20</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>500</x>
+      <y>380</y>
+      <w>180</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>
+
+--
+
+
+
+                ONLINE
+                   BAG 
+                SELLING 
+                SYSTEM
+
+
+
+valign=top
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>380</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+ADMIN
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>560</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+CUSTOMERS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>450</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>
+ DELIVERY STAFF
+
+  
+         </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>470</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>350</y>
+      <w>240</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+LOGIN
+
+
+</panel_attributes>
+    <additional_attributes>10.0;60.0;70.0;20.0;140.0;20.0;220.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>410</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+LOGIN</panel_attributes>
+    <additional_attributes>180.0;50.0;140.0;20.0;50.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>590</y>
+      <w>270</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+REGISTERION
+</panel_attributes>
+    <additional_attributes>10.0;30.0;60.0;60.0;200.0;60.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>480</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+REGISTERION</panel_attributes>
+    <additional_attributes>180.0;10.0;140.0;40.0;60.0;40.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>500</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+UPADATE DELIVARY 
+
+</panel_attributes>
+    <additional_attributes>180.0;10.0;140.0;40.0;60.0;40.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>370</y>
+      <w>240</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+MANAG
+PRODUCT
+DETAIL
+
+
+</panel_attributes>
+    <additional_attributes>10.0;60.0;70.0;20.0;140.0;20.0;220.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>320</y>
+      <w>250</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+VIEW
+PAYMENT
+DETAIL
+</panel_attributes>
+    <additional_attributes>230.0;60.0;180.0;20.0;70.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>270</y>
+      <w>290</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+VIEW
+REPORTDETAIL
+</panel_attributes>
+    <additional_attributes>270.0;110.0;200.0;20.0;90.0;20.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>490</y>
+      <w>250</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+     BRAND</panel_attributes>
+    <additional_attributes>230.0;50.0;190.0;20.0;60.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>580</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+LOGIN
+</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;50.0;190.0;50.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>560</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+AVILABLE PRODUCT
+</panel_attributes>
+    <additional_attributes>10.0;30.0;40.0;50.0;180.0;50.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>550</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+ADDTOCARD
+
+</panel_attributes>
+    <additional_attributes>10.0;30.0;170.0;30.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>470</y>
+      <w>270</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+           PYMENT</panel_attributes>
+    <additional_attributes>250.0;50.0;210.0;20.0;70.0;20.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>520</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+     
+    VIEW OFFERS</panel_attributes>
+    <additional_attributes>220.0;30.0;150.0;20.0;60.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>590</y>
+      <w>330</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+PLACE ORDER
+</panel_attributes>
+    <additional_attributes>10.0;30.0;100.0;90.0;240.0;90.0;310.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>590</y>
+      <w>390</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+GIEV FEEDBACK
+</panel_attributes>
+    <additional_attributes>10.0;30.0;130.0;110.0;270.0;110.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>590</y>
+      <w>430</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+ADD TO CATALOG
+</panel_attributes>
+    <additional_attributes>10.0;30.0;150.0;130.0;290.0;130.0;410.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>440</y>
+      <w>290</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+                 VIEW CATALOG</panel_attributes>
+    <additional_attributes>270.0;70.0;230.0;20.0;100.0;20.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>100</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>3 DATA FLOW  DIAGRAM</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>160</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>3.3.1 
+CONTEXT LEVEL DFD</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

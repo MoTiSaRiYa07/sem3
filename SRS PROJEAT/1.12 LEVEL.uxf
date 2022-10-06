@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>880</x>
+      <y>187</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.3
+--
+             
+               
+               
+           ENTER YOUR
+           BANK DETAILS
+               
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>902</x>
+      <y>462</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.4
+--
+             
+               
+               
+              PAY THE 
+                  BILL
+           
+               
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>231</x>
+      <y>473</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.6
+--
+             
+               
+               
+         CONFIRM YOUR
+           DETAILS
+               
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>407</x>
+      <y>297</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>737</x>
+      <y>286</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>979</x>
+      <y>385</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>759</x>
+      <y>561</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>418</x>
+      <y>572</y>
+      <w>176</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>473</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.5
+--
+             
+               
+               
+               ENTER 
+                 OTP
+        
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>187</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.2
+--
+         
+              SELECT
+              PAYMENT 
+              MODE
+         
+         
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>187</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+5.1
+--
+             
+               CHOOSES 
+                 THE 
+               PAYMENT
+               DETAILS
+               
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>847</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.2
+--
+         
+            
+            BROWSE FOR
+             MATCHING
+             PRODUCTS
+         
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>902</x>
+      <y>847</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.3
+--
+             
+               
+               
+               CHECK
+               QUANTITY
+               
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>924</x>
+      <y>1122</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.4
+--
+             
+               
+               
+           ADD TO CARD 
+              AVAILABLE
+               
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>594</x>
+      <y>1133</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.5
+--
+             
+               
+               
+               ENTER 
+              DELIVERY
+               DETAILS
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>253</x>
+      <y>1133</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.6
+--
+             
+               
+               
+               PLACE 
+               ORDER
+               
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>957</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-7</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>759</x>
+      <y>946</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-7</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1001</x>
+      <y>1045</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-7</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>781</x>
+      <y>1232</y>
+      <w>165</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-7</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>1232</y>
+      <w>176</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-7</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>242</x>
+      <y>847</y>
+      <w>198</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>
+4.1
+--
+             
+               
+               
+               ENTER 
+               PRODUCT
+               DETAILS
+
+
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>231</x>
+      <y>726</y>
+      <w>869</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>
+ 1 LEVEL DFD FOR ORDER</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>231</x>
+      <y>0</y>
+      <w>869</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>
+ 1 LEVEL DFD FOR PAYMENT</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

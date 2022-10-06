@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>130</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.1
+--
+             
+               
+               
+               PAYMENT
+              MANGMENT
+               
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>820</x>
+      <y>130</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.3
+--
+             
+               
+               
+                BILL
+            MANGEMENT
+               
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>840</x>
+      <y>380</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.4
+--
+             
+               
+               
+                RECEPIT
+                MANGEMENT
+               
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>230</x>
+      <y>390</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.6
+--
+             
+               
+               
+               BRANCH
+            MANGEMENT
+               
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>230</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-3</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>220</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-3</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>310</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-3</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>480</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-3</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>480</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-3</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>540</x>
+      <y>390</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.5
+--
+             
+               
+               
+               ACCOUNT 
+             MANAGEMENT
+        
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>520</x>
+      <y>130</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+5.2
+--
+         
+            
+            PAYMENT 
+              MODE
+             MANGEMENT
+         
+
+
+
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	
+			   /*phot tag*/    
+
+.main
+{
+	width: 100%;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(2.jpeg);
+	/*background-image: url(2.jpeg);*/
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+			/*icone tag*/
+.icon
+{
+	 width: 200px;
+	 float: left;
+	 height: 70px;
+
+}
+		 /*logo class  jay ramapir effect*/
+		   
+.logo
+{
+	color: green;
+	font-size:30px;
+	
+	padding-left: 0px;
+	float: right;
+	padding-top: 5px;
+
+}  
+
+		  /*navbar class */
+.navbar
+{
+	 width: 1200px;
+	 height: 75px;
+	 margin: auto;
+}
+.main
+{
+	width: 100%;
+}
+		   /* menu class ex home man woman ni effect */
+.menu
+{
+	width: 400px;
+	float: left;
+	height: 70px;
+}
+
+		  /* menu class ex home man woman ni effect */
+ul
+{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+		 /* menu class ex home man woman ni effect */
+ul li
+{
+	list-style: none;
+	margin-left: 35px;
+	margin-top: 27px;
+	font-size: 20px;
+	color: red;
+
+}
+		   /* menu class ex home man woman ni effect color mat */
+ul li a
+{
+	text-decoration: none;
+	color: aqua;
+	font-family: arial;
+	font-weight: bold;
+	padding: 0.5px;
+   } 
+
+			/* menu class ex home man woman ni zoom effect */
+ul li a:hover
+{
+	color: red;
+} 
+		  /* search class ex home par search karva */
+.search
+{
+	width: 330px;
+	float: left;
+	margin-left: 270px;
+}
+			   /* srch class enter your scarch mate */
+.srch
+{
+  font-family: Times new roman;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 3px solid orange ;
+  margin-top: 13px;
+  color: white ;
+  border-right:none ; 
+  font-size: 25px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+		   /* bth class effect to search button */
+.bth
+{
+	width: 100px;
+	height: 40px;
+	 background: orange;
+	border: 3px solid orange;
+	margin-top: 13px;
+	color: black;
+	font-size: 20px;
+	border-bottom-right-radius:5px ;
+	border-top-right-radius:5px ;
+}
+
+.bth:focus{
+	outline: none;
+}
+
+.srch:focus{
+
+	outline: none;
+}
+  .bth:hover
+{
+	background-color: white;
+}
+		  /* content to h1 tag mate pargr effect */
+.content
+{
+	 width: 1200px;
+	 height: auto;
+	 margin: auto;
+	 color: red;
+	 position: relative;
+}
+		   /*content.par 2 par ni  effect  we are */
+.content .par
+{
+	  padding-left:20px ;
+	  padding-bottom: 25px;
+	  font-family: Arial ;
+	  letter-spacing: 1.2px;
+	  line-height: 30px;
+	  font-size: 25px;
+	  color: orange;
+}
+		  /* content h1 to  par effect */
+.content h1
+{
+	font-family: 'Times new roman';
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 9%;
+	letter-spacing: 2px;
+}
+		   /* content cn selling button effect*/ 
+.content .cn
+{
+	 width: 160px;
+	 height: 50px;
+	 background: gold;
+	 border: 1px solid black;
+	 margin-bottom: 10px;
+	 margin-left: 20px;
+	 font-size: 20px;
+	 border-radius: 10px;
+	 cursor: pointer;
+	 transition: 1px;
+	  color: black;
+
+	}
+		 /* content cn selling button effect*/ 
+.cn:hover
+{
+	background-color: white;
+}
+	  /* content span hoy ta backgrod effect ma badlave*/
+.content span
+{
+	color: greenyellow;
+	font-size: 60px;
+}
+
+
+/* form ni effect*/
+.form
+{
+	width: 250px;
+	height: 380px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position: absolute;
+	top: -20px;
+	left: 870px;
+	transform: translate(0%,-5%);
+	border-radius: 10px;
+	padding: 25px;
+}
+	   /* form nu name login here ni effect*/
+.form h2
+{
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: greenyellow;
+	font-size: 22px;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+	   /*form nu input barni effect*/
+.form input
+{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid orange;
+	border-top:none ;
+	border-right: none;
+	border-left:none ;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+
+}
+		 
+.form input:focus{
+		outline: none;
+}
+	  /* form na button effect */
+.btm
+{
+	width: 240px;
+	height: 40px;
+	background: orange;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+
+}
+.btm:hover
+{
+ 
+  background: white;
+}
+
+.btm a
+{
+	text-decoration: none;
+	color:black;
+	font-weight:bold ;
+}
+		/* dont have ni effect*/ 
+.form .link
+{
+	font-family: arial;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+}
+	   /* sign ni effect*/
+.form .link a
+{
+	text-decoration: none;
+	color: darkgreen;
+}
+		 /*login with ni effect*/
+.liw{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+		/* icon ni effect*/
+.icons ion-icon{
+	color: cyan;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 5px;
+	transition: 0.3s ease;
+}
+
+ /* icon ni tuch effect*/
+.icons ion-icon:hover{
+	color: white;
+}
+
+
+
+
+

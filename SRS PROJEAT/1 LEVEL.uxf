@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>0</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.2
+--
+         
+            
+            BROWSE FOR
+             MATCHING
+             PRODUCTS
+         
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>210</x>
+      <y>0</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.1
+--
+             
+               
+               
+               ENTER 
+               PRODUCT
+               DETAILS
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>810</x>
+      <y>0</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.3
+--
+             
+               
+               
+               CHECK
+               QUANTITY
+               
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>830</x>
+      <y>250</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.4
+--
+             
+               
+               
+           ADD TO CARD 
+              AVAILABLE
+               
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>260</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.5
+--
+             
+               
+               
+               ENTER 
+              DELIVERY
+               DETAILS
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>260</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+4.6
+--
+             
+               
+               
+               PLACE 
+               ORDER
+               
+
+
+
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>100</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-0</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>90</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-0</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>180</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=group-0</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>350</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-0</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>350</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+group=group-0</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
